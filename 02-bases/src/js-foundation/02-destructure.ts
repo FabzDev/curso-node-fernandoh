@@ -1,7 +1,7 @@
 
 const { env } = process
-console.log( env );
+// console.log( env );
 
-export const heroesArr = ['Superman', 'Flash', 'Batman']
+export const heroesArr = ['Flash', 'Batman', 'Superman']
 const [, , batman] = heroesArr;
-console.log(batman);
+// console.log(batman);

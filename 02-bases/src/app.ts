@@ -8,11 +8,11 @@
 // console.log(heroesArr);
 
 // CALLBACKS
-// import { findName } from "./js-foundation/03-callbacks";
-// console.log( findName(8, (error: string, name: String) => {
-//     if (!name) throw new Error(error)
-//     return name;
-// }));
+import { findName } from "./js-foundation/03-callbacks";
+findName(1, (user, error) => {
+    if (!user) throw new Error(error)
+    console.log(user.name);
+});
 
 //ARROW: igual que callbacks pero con arrow functions
 // import { findName } from "./js-foundation/04-arrow";
@@ -37,7 +37,7 @@
 // )
 
 // LOGGER
-import { buildLoggerPlugin } from "./plugins";
-const loggerPlugin = buildLoggerPlugin('app.js');
-loggerPlugin.log("hola mundo");
-loggerPlugin.error("esto es malo");
+// import { buildLoggerPlugin } from "./plugins";
+// const loggerPlugin = buildLoggerPlugin('app.js');
+// loggerPlugin.log("hola mundo");
+// loggerPlugin.error("esto es malo");

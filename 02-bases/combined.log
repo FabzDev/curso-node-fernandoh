@@ -112,3 +112,5 @@ undefined
 {"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:57:22.696Z"}
 {"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:57:31.669Z"}
 {"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:57:31.672Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-16T17:50:12.505Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-16T17:50:12.511Z"}
