@@ -1,0 +1,114 @@
+{"level":"info","message":"hola mundo","service":"user-service"}
+{"level":"info","message":"hola mundo"}
+{"level":"info","message":"hola mundo"}
+{"level":"info","message":"hola mundo3"}
+{"level":"info","message":"hola mundo3"}
+{"level":"info","message":"hola mundo3"}
+{"level":"info","message":"hola mundo"}
+{"level":"info","message":"hola mundo","service":"user-service"}
+{"level":"info","message":"hola mundo","service":"user-service"}
+{"level":"info","message":"hola mundo","service":"user-service"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"user-service"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo"}
+{"level":"info","message":"hola mundo"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js"}
+{"level":"error","message":"error esto es malo","service":"app.js"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-13T23:37:13.174Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:37:13.184Z"}
+undefined
+undefined
+undefined
+undefined
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-13T23:37:41.497Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:37:41.504Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-13T23:37:41.970Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:37:41.978Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:38:22.313Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:38:22.886Z"}
+{"level":"info","message":"hola mundo","service":"user-service","timestamp":"2024-06-13T23:39:08.912Z"}
+{"level":"info","message":"hola mundo","service":"user-service","timestamp":"2024-06-13T23:39:49.192Z"}
+{"level":"info","message":"hola mundo","service":"user-service","timestamp":"2024-06-13T23:39:55.775Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:39:55.783Z"}
+undefined
+undefined
+{"level":"info","message":"hola mundo","service":"user-service","timestamp":"2024-06-13T23:40:13.842Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-13T23:40:13.850Z"}
+{"level":"info","message":"hola mundo","service":"user-service","timestamp":"2024-06-14T04:09:44.493Z"}
+{"level":"error","message":"error","service":"user-service","timestamp":"2024-06-14T04:09:44.496Z"}
+{"level":"info","message":"hola mundo","service":"user-service","timestamp":"2024-06-14T04:10:37.674Z"}
+{"level":"error","message":"error","service":"user-service","timestamp":"2024-06-14T04:10:37.677Z"}
+{"level":"info","message":"hola mundo","timestamp":"2024-06-14T04:11:03.327Z"}
+{"level":"error","message":"error","timestamp":"2024-06-14T04:11:03.330Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-14T04:11:40.672Z"}
+{"level":"error","message":"error","timestamp":"2024-06-14T04:11:40.677Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-14T04:12:23.931Z"}
+{"level":"error","message":"error","timestamp":"2024-06-14T04:12:23.934Z"}
+{"comment":"hola mundo","level":"info","service":"app.js","timestamp":"2024-06-14T04:12:47.411Z"}
+{"comment":"esto es malo","level":"error","message":"error","service":"app.js","timestamp":"2024-06-14T04:12:47.414Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-14T04:14:25.821Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-14T04:14:25.825Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:34:15.436Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:34:15.440Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:35:53.033Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:35:53.036Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:36:02.247Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:41:28.847Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:41:59.817Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:43:01.380Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:43:07.131Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:43:50.267Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:46:17.721Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:46:20.694Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:46:41.594Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:47:36.880Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:50:28.081Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:50:33.442Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:50:33.447Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:50:49.449Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:50:49.452Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:50:57.381Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:50:57.385Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:09.291Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:09.294Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:12.196Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:12.200Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:16.818Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:16.822Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:26.906Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:26.910Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:29.708Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:29.713Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:32.772Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:32.776Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:51:57.124Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:51:57.130Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:53:12.745Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:53:12.748Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:53:15.435Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:53:15.439Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:53:25.236Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:53:25.240Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:54:39.712Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:54:39.717Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:56:50.013Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:56:50.016Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:57:22.691Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:57:22.696Z"}
+{"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-15T21:57:31.669Z"}
+{"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:57:31.672Z"}
