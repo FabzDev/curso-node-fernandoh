@@ -1,25 +1,23 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.findName = exports.users = void 0;
-exports.users = [
+exports.findName = void 0;
+const users = [
     {
         id: 1,
-        name: "Fabio"
+        name: "Fabio",
     },
     {
         id: 2,
-        name: "Yulieth"
-    }
+        name: "Yulieth",
+    },
 ];
 function findName(id, callback) {
-    const user = exports.users.find(function (user) {
+    const user = users.find(function (user) {
         return user.id == id;
     });
-    if (!user)
-        return callback(`❌ ERROR!!! No se encontro el usuario!`, null);
-    return callback(null, user);
+    if (!user) {
+        return callback(`❌ ERROR!!! No se encontro el usuario!`, undefined);
+    }
+    return callback(undefined, user);
 }
 exports.findName = findName;
-module.exports = {
-    findName
-};

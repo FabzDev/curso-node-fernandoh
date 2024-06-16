@@ -1,16 +1,14 @@
 "use strict";
-// const { uuid } = require('../plugins/uuid.plugin');
-// const { getAge } = require('../plugins/getAge.plugin');
-// const { uuid, getAge } = require("../plugins")
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildPersonFactory = void 0;
-const buildPersonFactory = (uuid, getAge) => {
+const plugins_1 = require("../plugins");
+const buildPersonFactory = (plugOptMaker) => {
     return (name, birthday) => {
         return {
-            id: uuid(),
+            id: (0, plugins_1.uuidPlugin)(),
             name,
             birthday,
-            age: getAge(birthday),
+            age: (0, plugins_1.getAgePlugin)(birthday),
         };
     };
 };

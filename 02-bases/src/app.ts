@@ -1,9 +1,3 @@
-// LOGGER
-// import { buildLoggerPlugin } from "./plugins";
-// const loggerPlugin = buildLoggerPlugin('app.js');
-// loggerPlugin.log("hola mundo");
-// loggerPlugin.error("esto es malo");
-
 
 // TEMPLATE
 // import { template as temp } from "./js-foundation/01-template";
@@ -35,15 +29,15 @@
 // console.log(fabio);
 
 //PROMISES
-import { getPokemon } from './js-foundation/06-promises'
-getPokemon(4)
-.then( myFavPoke => console.log(myFavPoke) )
-.catch( error => console.log(error) )
-.finally( () => console.log('Promesa cumplida')
-)
+// import { getPokemon } from './js-foundation/06-promises'
+// getPokemon(4)
+// .then( myFavPoke => console.log(myFavPoke) )
+// .catch( error => console.log(error) )
+// .finally( () => console.log('Promesa cumplida')
+// )
 
-
-// promiseGetPoke(2)
-// .then( pokemon => console.log(pokemon.name))
-// .catch( error => console.log("Intenta de nuevo"))
-// .finally(() => console.log('Finalizado'))
+// LOGGER
+import { buildLoggerPlugin } from "./plugins";
+const loggerPlugin = buildLoggerPlugin('app.js');
+loggerPlugin.log("hola mundo");
+loggerPlugin.error("esto es malo");

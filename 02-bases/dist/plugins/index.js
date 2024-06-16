@@ -1,12 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const { uuid } = require('../plugins/uuid.plugin');
-const { getAge } = require('../plugins/getAge.plugin');
-const { httpPlugin } = require('./httpClient.plugin');
+exports.buildLoggerPlugin = exports.httpClientPlugin = exports.getAgePlugin = exports.uuidPlugin = void 0;
+const uuid_plugin_1 = require("./uuid.plugin");
+const getAge_plugin_1 = require("../plugins/getAge.plugin");
+const httpClient_plugin_1 = require("./httpClient.plugin");
 const logger_plugin_1 = require("./logger.plugin");
-module.exports = {
-    uuid,
-    getAge,
-    httpPlugin,
-    buildLogger: logger_plugin_1.buildLogger
-};
+exports.uuidPlugin = uuid_plugin_1.uuid;
+exports.getAgePlugin = getAge_plugin_1.getAge;
+exports.httpClientPlugin = httpClient_plugin_1.httpClient;
+exports.buildLoggerPlugin = logger_plugin_1.buildLogger;
