@@ -5,13 +5,13 @@ interface pluginsOptionMaker {
     agePlug: (birthday: string) => number
 }
 
-export const buildPersonFactory = (plugOptMaker: pluginsOptionMaker) => {
+export const buildPersonFactory = ({ uuidPlug, agePlug }: pluginsOptionMaker) => {
 	return ( name: string, birthday: string ) => {
 		return {
-			id: uuidPlugin(),
+			id: uuidPlug(),
 			name,
 			birthday,
-			age: getAgePlugin(birthday),
+			age: agePlug(birthday),
 		};
 	};
 };
