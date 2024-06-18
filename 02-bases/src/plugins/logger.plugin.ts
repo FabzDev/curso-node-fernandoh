@@ -1,7 +1,7 @@
-const winston = require("winston");
+import winston from "winston";
 const { json, timestamp, combine } = winston.format;
 
-const logger = winston.createLogger({
+export const logger = winston.createLogger({
 	level: "info",
 	format: combine(
         timestamp(),

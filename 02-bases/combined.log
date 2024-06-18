@@ -114,3 +114,11 @@ undefined
 {"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-15T21:57:31.672Z"}
 {"level":"info","message":"hola mundo","service":"app.js","timestamp":"2024-06-16T17:50:12.505Z"}
 {"level":"error","message":"error esto es malo","service":"app.js","timestamp":"2024-06-16T17:50:12.511Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:42:58.102Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:42:58.209Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:44:03.103Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:44:03.104Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:49:18.643Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:49:18.781Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:51:02.905Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:51:03.088Z"}
