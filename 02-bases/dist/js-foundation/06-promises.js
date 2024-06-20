@@ -3,9 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getPokemon = void 0;
 const plugins_1 = require("../plugins");
 const getPokemon = async (id) => {
-    const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
-    const pokemon = await plugins_1.httpClientPlugin.get(url);
-    return pokemon.name;
+    try {
+        const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+        const pokemon = await plugins_1.httpClientPlugin.get(url);
+        return pokemon.name;
+    }
+    catch (error) {
+        throw 'Pokemon no encontrado en la pokedex';
+    }
 };
 exports.getPokemon = getPokemon;
 // function getPokemon( id ){

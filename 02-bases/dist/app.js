@@ -7,11 +7,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import {heroesArr} from "./js-foundation/02-destructure";
 // console.log(heroesArr);
 // CALLBACKS
-// import { findName } from "./js-foundation/03-callbacks";
-// console.log( findName(8, (error: string, name: String) => {
-//     if (!name) throw new Error(error)
-//     return name;
-// }));
+const _03_callbacks_1 = require("./js-foundation/03-callbacks");
+(0, _03_callbacks_1.findName)(1, (user, error) => {
+    if (!user)
+        throw new Error(error);
+    console.log(user.name);
+});
 //ARROW: igual que callbacks pero con arrow functions
 // import { findName } from "./js-foundation/04-arrow";
 // console.log( findName(0, (error: string, name: String) => {
@@ -32,7 +33,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // .finally( () => console.log('Promesa cumplida')
 // )
 // LOGGER
-const plugins_1 = require("./plugins");
-const loggerPlugin = (0, plugins_1.buildLoggerPlugin)('app.js');
-loggerPlugin.log("hola mundo");
-loggerPlugin.error("esto es malo");
+// import { buildLoggerPlugin } from "./plugins";
+// const loggerPlugin = buildLoggerPlugin('app.js');
+// loggerPlugin.log("hola mundo");
+// loggerPlugin.error("esto es malo");

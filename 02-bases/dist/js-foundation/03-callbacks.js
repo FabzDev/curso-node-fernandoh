@@ -16,8 +16,8 @@ function findName(id, callback) {
         return user.id == id;
     });
     if (!user) {
-        return callback(`❌ ERROR!!! No se encontro el usuario!`, undefined);
+        return callback(undefined, `❌ ERROR!!! No se encontro el usuario!`);
     }
-    return callback(undefined, user);
+    return callback(user, undefined);
 }
 exports.findName = findName;

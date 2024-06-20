@@ -122,3 +122,6 @@ undefined
 {"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:49:18.781Z"}
 {"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:51:02.905Z"}
 {"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:51:03.088Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-18T05:56:09.808Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-20T03:17:38.964Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-06-20T03:20:46.743Z"}
