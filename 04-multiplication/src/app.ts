@@ -1,7 +1,11 @@
 import { args } from './plugins/args.plugin';
-// import yargs  from 'yargs/yargs';
 
-console.log(process.argv);
+(()=> {
+    main();
+})()
 
-console.log(args);
+
+function main(){
+    console.log(args);
+}
 
