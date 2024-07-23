@@ -1,9 +1,9 @@
-import {args} from "./plugins/args.plugin";
+import { argsPluging } from "./plugins/args.plugin";
 
-(async () => {
-	await asinc();
+(() => {
+	main();
 })();
 
-async function asinc() {
-	console.log("Async Function");
+function main() {
+	console.log(argsPluging);
 }
