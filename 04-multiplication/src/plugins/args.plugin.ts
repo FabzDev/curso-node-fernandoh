@@ -20,4 +20,8 @@ export const argsPluging = yargs(hideBin(process.argv))
     demandOption: false,
     describe: 'Mostrar tabla en la consola'
 })
+.check( (argv, options) => {
+    if (argv.b <1) throw new Error('La variable b debe ser mayor que 0')
+    return true;
+})
 .parseSync();
