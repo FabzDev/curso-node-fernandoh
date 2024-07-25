@@ -17,7 +17,7 @@ export const argsPluging = yargs(hideBin(process.argv))
 .options('s', {
     alias: 'show',
     type: 'boolean',
-    demandOption: false,
+    default: false,
     describe: 'Mostrar tabla en la consola'
 })
 .check( (argv, options) => {

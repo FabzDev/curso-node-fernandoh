@@ -1,9 +1,12 @@
 import { argsPluging } from "./plugins/args.plugin";
+import { ServerApp } from "./presentation/server-app";
 
 (() => {
-	main();
+    main();
 })();
 
+
 function main() {
-	console.log(argsPluging);
+    const { b: base, l: limit, s: showTable } = argsPluging
+	ServerApp.run({base, limit, showTable});
 }
