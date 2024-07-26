@@ -12,6 +12,5 @@ export class ServerApp {
     public static run(options: RunOptions){
         console.log('Server Running...');
         console.log(options);
-        
     }
 }
