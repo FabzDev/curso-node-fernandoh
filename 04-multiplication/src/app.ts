@@ -8,5 +8,5 @@ import { ServerApp } from "./presentation/server-app";
 
 function main() {
     const { b: base, l: limit, s: showTable } = argsPluging
-	ServerApp.run({base, limit, showTable});
+	ServerApp.run({base, limit, showTable});    
 }
