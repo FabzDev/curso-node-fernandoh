@@ -1,3 +1,4 @@
+import { CreateTable } from "../domain/use-cases/create-table.use-case";
 import { argsPluging } from "../plugins/args.plugin";
 
 interface RunOptions {
@@ -9,8 +10,9 @@ interface RunOptions {
 
 export class ServerApp {
 
-    public static run(options: RunOptions){
-        console.log('Server Running...');
-        console.log(options);
+    public static run({base, limit, showTable}: RunOptions){
+        const table = new CreateTable().execute({base, limit})
+         if(showTable) console.log(table);
     }
+
 }

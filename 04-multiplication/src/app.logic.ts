@@ -9,7 +9,7 @@ const headerMsg: string = `
 ==========================
 `;
 const outDir: string = 'outputs/'
-const fileName: string = `tabla-${base}`
+const fileName: string = `tabla-${base}`;
 
 for(let i=0; i<limit; i++){
     outputMsg += `${base} x ${i+1} = ${base * (i+1)}\n`
@@ -20,6 +20,6 @@ outputMsg = headerMsg + outputMsg;
 if(show) console.log(outputMsg);
 
 
-fs.mkdirSync(outDir, { recursive: true })
+fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(`${outDir}${fileName}.txt`, outputMsg);
 console.log('File created');
