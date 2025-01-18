@@ -1,5 +1,5 @@
 import { CreateTable } from "../domain/use-cases/create-table.use-case";
-import { argsPluging } from "../plugins/args.plugin";
+import { SaveTable } from "../domain/use-cases/save-table.use-case"
 
 interface RunOptions {
     base: number;
@@ -13,6 +13,7 @@ export class ServerApp {
     public static run({base, limit, showTable}: RunOptions){
         const table = new CreateTable().execute({base, limit})
          if(showTable) console.log(table);
+        const successSavetable = new SaveTable().execute(table);
     }
 
 }
