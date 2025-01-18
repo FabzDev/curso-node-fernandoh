@@ -1,18 +1,28 @@
 import fs from "fs";
 
 export interface SaveTableUseCase {
-  execute: (table: string) => boolean;
+  execute: (options: SaveTableOptions) => boolean;
+}
+
+export interface SaveTableOptions {
+  tableContent: string;
+  fileDest: string;
+  fileName: string;
 }
 
 export class SaveTable implements SaveTableUseCase {
-  constructor() {}
+  constructor() // dependency injection
+  {}
 
-  execute(table:string) {
-    const outDir: string = 'outputs/'
-    const fileName: string = `tabla-test`;
-    fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(`${outDir}${fileName}.txt`, table);
-    console.log("File created");
-    return true
+  execute({ tableContent, fileDest, fileName }: SaveTableOptions) {
+    try {
+      fs.mkdirSync(fileDest, { recursive: true });
+      fs.writeFileSync(`${fileDest}${fileName}.txt`, tableContent);
+      console.log("File created");
+      return true;
+    } catch (error) {
+      console.log(error);
+      return false;
+    }
   }
 }

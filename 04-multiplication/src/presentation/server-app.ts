@@ -13,7 +13,12 @@ export class ServerApp {
     public static run({base, limit, showTable}: RunOptions){
         const table = new CreateTable().execute({base, limit})
          if(showTable) console.log(table);
-        const successSavetable = new SaveTable().execute(table);
+        const successSavetable = new SaveTable().execute(
+            {
+                tableContent: table,
+                fileDest:'outputs/',
+                fileName:`Table ${base}`
+            }
+        );
     }
-
 }
