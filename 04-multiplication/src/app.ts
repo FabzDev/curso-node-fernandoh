@@ -7,6 +7,6 @@ import { ServerApp } from "./presentation/server-app";
 
 
 function main() {
-    const { b: base, l: limit, s: showTable } = argsPluging
-	ServerApp.run({base, limit, showTable});
+    const { b: base, l: limit, s: showTable, n:tableName, d:tableDest } = argsPluging
+	ServerApp.run({base, limit, showTable, tableName, tableDest});
 }
