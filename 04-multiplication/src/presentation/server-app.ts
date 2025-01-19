@@ -11,19 +11,22 @@ interface RunOptions {
 
 export class ServerApp {
   public static run({
-    base,
-    limit,
-    showTable,
-    tableName=`Table-x${base}`,
-    tableDest= 'outputs/',
+    base:base,
+    limit:limit,
+    showTable:showTable,
+    tableName:tableName = `Table-x${base}`,
+    tableDest:tableDest = "outputs/",
   }: RunOptions) {
     const table = new CreateTable().execute({ base, limit });
+
     if (showTable) console.log(table);
+
     const successSaveTable = new SaveTable().execute({
       tableContent: table,
       fileDest: tableDest,
-      fileName: tableName
+      fileName: tableName,
     });
-    console.log((successSaveTable) ? "Archivo guardado" : "Error");
+
+    console.log(successSaveTable ? "Archivo guardado" : "Error");
   }
 }
