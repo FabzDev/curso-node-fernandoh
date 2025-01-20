@@ -38,4 +38,37 @@ describe('Save Table Case Use Test', ()=>{
         expect(fileContent).toBe(saveTableOptions.tableContent);
         
     })
+
+    test('should return false is there is an error in readfileSync', ()=>{
+        const saveTableOptions = { 
+            tableContent: 'Default content',
+            fileDest: 'custom-outputs/file-destination/',
+            fileName: 'custom-table-name' 
+        };
+        
+        const readFileSpy = jest.spyOn(fs, 'mkdirSync');
+        readFileSpy.mockImplementation( () => { throw new Error('Error generado por jest Espia')});
+
+        const resultSaveTable = new SaveTable().execute( saveTableOptions );
+        
+        expect(resultSaveTable).toBe(false);
+
+        readFileSpy.mockRestore();
+        
+    })
+
+    test('should return false is there is an error in writeFileSync', ()=>{
+        const saveTableOptions = { tableContent: 'Default content'};
+        
+        // const readFileSpy = jest.spyOn(fs, 'mkdirSync');
+        // readFileSpy.mockImplementation( () => { throw new Error('Error generado por jest Espia')});
+
+        const mySpyWriteFileSync = jest.spyOn(fs, 'writeFileSync');
+        mySpyWriteFileSync.mockImplementation(()=>{throw new Error('Mi propio error en writeFileSync')})
+
+        const resultSaveTable = new SaveTable().execute( saveTableOptions );
+
+        expect(resultSaveTable).toBe(false);
+        
+    })
 })
