@@ -14,7 +14,7 @@ export class SaveTable implements SaveTableUseCase {
   constructor() // dependency injection
   {}
 
-  execute({tableContent, fileDest='outputs/', fileName}: SaveTableOptions) {
+  execute({tableContent, fileDest='outputs/', fileName='DefaultTable'}: SaveTableOptions) {
     try {
       fs.mkdirSync(fileDest, { recursive: true });
       fs.writeFileSync(`${fileDest}${fileName}.txt`, tableContent);
