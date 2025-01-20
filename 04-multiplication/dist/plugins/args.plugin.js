@@ -19,6 +19,16 @@ exports.argsPluging = (0, yargs_1.default)((0, helpers_1.hideBin)(process.argv))
     default: 10,
     describe: 'Es el limite tablas de multiplicar'
 })
+    .options('n', {
+    alias: 'name',
+    type: 'string',
+    describe: 'File Name'
+})
+    .options('d', {
+    alias: 'destination',
+    type: 'string',
+    describe: 'File Destination'
+})
     .options('s', {
     alias: 'show',
     type: 'boolean',

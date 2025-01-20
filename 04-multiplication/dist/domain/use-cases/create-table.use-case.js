@@ -4,7 +4,12 @@ exports.CreateTable = void 0;
 class CreateTable {
     constructor() { }
     execute({ base, limit = 10 }) {
-        let outputMsg = "";
+        let outputMsg = `
+==========================
+        Tabla del ${base}
+==========================
+
+`;
         for (let i = 0; i < limit; i++) {
             outputMsg += `${base} x ${i + 1} = ${base * (i + 1)}\n`;
         }
