@@ -1,4 +1,4 @@
-import yargs, { boolean } from "yargs";
+import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 
 export const argsPluging = yargs(hideBin(process.argv))
@@ -17,11 +17,13 @@ export const argsPluging = yargs(hideBin(process.argv))
 .options('n', {
     alias: 'name',
     type: 'string',
+    default:'defaultTable',
     describe: 'File Name'
 })
 .options('d', {
     alias: 'destination',
     type: 'string',
+    default:'outputs/',
     describe: 'File Destination'
 })
 .options('s', {
