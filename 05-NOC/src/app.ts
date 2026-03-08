@@ -1,3 +1,9 @@
-const na2me: string = 'Fabio es el mejor del mundo mundial!';
+import { Server } from "./presentation/server";
 
-console.log(na2me);
+(() => {
+  start();
+})();
+
+function start() {
+  Server.start();
+}
