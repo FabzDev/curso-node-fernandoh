@@ -2,27 +2,25 @@ interface CheckServiceUseCase {
   execute(url: string): Promise<boolean>;
 }
 
-type SuccessRequest= () => void;
-type ErrorRequest= (error: string) => void;
-
+type OnLogSuccess = () => void;
+type OnLogError = (errorMessage: string) => void;
 
 export class CheckService implements CheckServiceUseCase {
   constructor(
-    private readonly successReq: SuccessRequest,
-    private readonly errorReq: ErrorRequest,
-  ){
-  }
+    private readonly onLogSuccess: OnLogSuccess,
+    private readonly onLogError: OnLogError,
+  ) {}
 
-  public async execute(url: string): Promise<boolean> {
+  async execute(url: string): Promise<boolean> {
+    const resp = await fetch(url);
     try {
-      const req = await fetch(url);
-      if (!req.ok) {
-        throw Error(`Error making request to ${url}`);
+      if (!resp.ok) {
+        throw new Error('"Fetch call failed!!!"');
       }
-      this.successReq();
+      this.onLogSuccess();
       return true;
     } catch (error) {
-      this.errorReq(`${error}`)
+      this.onLogError(`Error: ${error}`);
       return false;
     }
   }
